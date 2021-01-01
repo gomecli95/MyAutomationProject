@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "com/myApp/step_definitions",
-        dryRun = false
-        //, tags = "@regression"
+        dryRun = false,
+        tags = "@regression"
 )
 
 public class CucumberRunner {
